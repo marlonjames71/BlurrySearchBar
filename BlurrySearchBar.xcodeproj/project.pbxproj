@@ -13,6 +13,7 @@
 		37165FD324CFB37200945F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37165FD124CFB37200945F16 /* Main.storyboard */; };
 		37165FD524CFB37300945F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37165FD424CFB37300945F16 /* Assets.xcassets */; };
 		37165FD824CFB37300945F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37165FD624CFB37300945F16 /* LaunchScreen.storyboard */; };
+		3732C39C24CFD8A800C261AD /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732C39B24CFD8A800C261AD /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		37165FD424CFB37300945F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37165FD724CFB37300945F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37165FD924CFB37300945F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3732C39B24CFD8A800C261AD /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				37165FCB24CFB37200945F16 /* AppDelegate.swift */,
 				37165FCD24CFB37200945F16 /* SceneDelegate.swift */,
 				37165FCF24CFB37200945F16 /* ViewController.swift */,
+				3732C39B24CFD8A800C261AD /* CustomSearchBar.swift */,
 				37165FD124CFB37200945F16 /* Main.storyboard */,
 				37165FD424CFB37300945F16 /* Assets.xcassets */,
 				37165FD624CFB37300945F16 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				37165FD024CFB37200945F16 /* ViewController.swift in Sources */,
 				37165FCC24CFB37200945F16 /* AppDelegate.swift in Sources */,
+				3732C39C24CFD8A800C261AD /* CustomSearchBar.swift in Sources */,
 				37165FCE24CFB37200945F16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
