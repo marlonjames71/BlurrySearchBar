@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		let base = UIView()
 		base.translatesAutoresizingMaskIntoConstraints = false
 		base.backgroundColor = .clear
-		base.layer.cornerRadius = 8
+		base.layer.cornerRadius = 12
 		base.layer.cornerCurve = .continuous
 		base.layer.masksToBounds = true
 		return base
@@ -96,7 +96,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 			searchBarBase.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 200),
 			searchBarBase.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
 			searchBarBase.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
-			searchBarBase.heightAnchor.constraint(equalToConstant: 50),
+			searchBarBase.heightAnchor.constraint(equalToConstant: 40),
 
 			blurEffectView.topAnchor.constraint(equalTo: searchBarBase.topAnchor),
 			blurEffectView.leadingAnchor.constraint(equalTo: searchBarBase.leadingAnchor),
